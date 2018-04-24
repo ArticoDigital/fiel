@@ -13,7 +13,7 @@
 	<!-- Styles -->
 	<style>
 		html, body {
-			background: url("/images/back.jpg");
+			background: url("images/back.jpg");
 			background-size: cover;
 			background-position: center;
 			color: #fff;
@@ -78,7 +78,7 @@
 		}
 		@media (max-width: 420px) {
 			html, body {
-				background-image:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url("/images/back.jpg");
+				background-image:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),  url("images/back.jpg");
 			}
 			.content-up {
 				top: 0;

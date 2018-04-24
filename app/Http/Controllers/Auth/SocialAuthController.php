@@ -26,6 +26,7 @@ class SocialAuthController extends Controller
         if ($user = User::where('email', $social_user->email)->first()) {
             return $this->authAndRedirect($user); // Login y redirección
         } else {
+        	dd($social_user);
             // En caso de que no exista creamos un nuevo usuario con sus datos.
             $user = User::create([
                 'name' => $social_user->name,

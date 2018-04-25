@@ -13,7 +13,7 @@
 	<!-- Styles -->
 	<style>
 		html, body {
-			background: url("http://barsotano303.com/cliente-fiel/public/images/back.jpg");
+			background: url("https://barsotano303.com/cliente-fiel/public/images/back.jpg");
 			background-size: cover;
 			background-position: center;
 			color: #fff;

@@ -35,9 +35,9 @@ return [
 		'secret' => env( 'STRIPE_SECRET' ),
 	],
 	'facebook' => [
-		'client_id'     => '184022595576366',
-		'client_secret' => '7e2f9f94288aca99c93cd8c0200abf56',
-		'redirect'      => 'https://barsotano303.jk/auth/facebook/callback',
+		'client_id'     => env('CLIENT_ID'),
+		'client_secret' => env('CLIENT_SECRET'),
+		'redirect'      => env('CALLBACK_FACEBOOK'),
 	],
 
 ];
